@@ -1,0 +1,182 @@
+
+html {   
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+width: 100%;
+}
+
+.intro {
+/* The image used */
+    background-image: url("../resources/backgrounds/h_img.jpg");
+
+    /* Full height */
+
+    height: 650px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+    /* margin: 0; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 4em;
+    }
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    }
+
+.about-us {
+    color: black;
+    height: 325px;
+    width: inherit;
+    text-align: center;
+    }
+
+h3{
+    color: rgb(56, 54, 54);
+    text-align: center;
+    font-size: 1.8em;
+    }
+
+p{
+    color: rgb(56, 54, 54);
+    text-align: center;
+    font-size: 0.9em;
+    }
+
+.services{
+    height: 325px;
+    width: inherit;
+    text-align: center;
+    background-image: url("../resources/backgrounds/s_image.jpg");
+    }
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    }
+
+h5{
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    }
+
+.featured-area {
+    background: #fff;
+    padding: 70px 0 0 0;
+    }
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    }
+
+.col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: small;
+    text-align: center;
+    }
+
+.justify-content-between {
+    justify-content: space-between !important;
+    }
+
+.text-uppercase {
+    text-transform: uppercase !important;
+    text-align: center;
+    }
+
+h6{
+    font-size: 1.4em;
+    }
+
+.icon{
+    width: 70px;
+    height: 70px;
+    }
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 5px;
+    }
+
+/* Clear floats after image containers */
+/* .row::after {
+content: "";
+clear: both;
+display: table;
+} */
+
+.rows {
+    display: flex;
+    }
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    }
+
+.portfolio{
+    padding: 65px;
+}
+
+.contact-us{
+    background-image: url("../resources/backgrounds/c_image.jpg");
+
+    /* Full height */
+
+    height: 430px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
+
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+.content{
+    padding: 5em 15em 15em 15em;
+}
+
+.forms{
+    height: 100;
+}
+
+
